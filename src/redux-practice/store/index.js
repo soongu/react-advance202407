@@ -3,7 +3,7 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 // 관리할 초기 상태값 객체
 const initialCountState = {
   counter: 0,
-  showCounter: true
+  showCounter: true,
 };
 
 // reducer: 상태 변경을 위한 순수 함수 - 부수 효과(비동기코드...)가 없는 함수
